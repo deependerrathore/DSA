@@ -25,7 +25,7 @@ void Print(struct Node* head){
     printf("\n ");
 
 }
-int main()
+int main1()
 {
     struct Node* head = NULL ; //empty list
     printf("How many number?\n ");

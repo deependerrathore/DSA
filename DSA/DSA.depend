@@ -1,5 +1,9 @@
 # depslib dependency file v1.0
-1412538531 source:c:\users\deepc\documents\github\dsa\dsa\main.c
+1412544908 source:c:\users\deepc\documents\github\dsa\dsa\main.c
 	<stdio.h>
 	<stdlib.h>
+
+1412544928 source:c:\users\deepc\documents\github\dsa\dsa\insertatnthnode.cpp
+	<stdio.h>
+	<stdio.h>
 

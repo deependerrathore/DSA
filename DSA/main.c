@@ -6,12 +6,12 @@ struct Node{
     struct Node* next;
 };
 
-struct Node* Insert(struct Node* head , int x){
+void Insert(struct Node** pointerToHead , int x){
     struct Node* temp = (struct Node*)malloc(sizeof(struct Node));
     (*temp).data =x;
-    (*temp).next = head;
-    head = temp;
-    return head;
+    (*temp).next = *pointerToHead;
+    *pointerToHead = temp;
+
 
 }
 
@@ -36,7 +36,7 @@ int main()
     for(i = 0 ; i<n ; i++){
         printf("Enter the number\n ");
         scanf("%d",&x);
-        head = Insert(head,x);
+        Insert(&head,x);
         Print(head);
     }
 

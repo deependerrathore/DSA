@@ -9,15 +9,23 @@ struct Node{
 struct Node* head;  //global variable , can be accessed anywhere
 
 void Insert(int x){
-    Node* temp = malloc(sizeof(struct Node)) ;
-    (*temp).data =x ;   //or temp ->data = x ;
-    (*temp).next = NULL;//or temp->next = NULL;
-    if(head !=NULL) (*temp).next = head;
+    struct Node* temp = (struct Node*)malloc(sizeof(struct Node));
+    (*temp).data =x;
+    (*temp).next = head;
     head = temp;
 
 }
-void Insert(int x);
-void Print();
+
+void Print(){
+    struct Node* temp = head;
+    printf("List is : ");
+    while(temp != NULL){
+        printf("%d ",(*temp).data);
+        temp = (*temp).next;
+    }
+    printf("\n ");
+
+}
 int main()
 {
     head = NULL ; //empty list
@@ -28,7 +36,7 @@ int main()
 
     for(i = 0 ; i<n ; i++){
         printf("Enter the number\n ");
-        scanf("%d",x);
+        scanf("%d",&x);
         Insert(x);
         Print();
     }

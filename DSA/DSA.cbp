@@ -31,6 +31,8 @@
 		<Compiler>
 			<Add option="-Wall" />
 		</Compiler>
+		<Unit filename="DeleteAtNthPosition.cpp" />
+		<Unit filename="InsertAtNthNode.cpp" />
 		<Unit filename="main.c">
 			<Option compilerVar="CC" />
 		</Unit>

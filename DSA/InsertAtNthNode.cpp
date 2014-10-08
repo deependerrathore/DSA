@@ -37,11 +37,19 @@ void Print(){
     }
     printf("\n ");
 }
-int main(){
+int main2(){
     head = NULL;    //empty List
     Insert(2,1);    //List 2
     Insert(3,2);    //List 2 , 3
     Insert(4,1);    //List 4 , 2, 3
     Insert(5,2);    //List 4 , 5 , 2, 3
+    Insert(6,1);    //List 2
+    Insert(7,2);    //List 2 , 3
+    Insert(8,1);    //List 4 , 2, 3
+    Insert(5,6);    //List 4 , 5 , 2, 3
+    Insert(2,1);    //List 2
+    Insert(3,2);    //List 2 , 3
+    Insert(4,1);    //List 4 , 2, 3
+    Insert(5,4);    //List 4 , 5 , 2, 3
     Print();
 }

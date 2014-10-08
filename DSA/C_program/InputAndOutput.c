@@ -1,8 +1,8 @@
 #include<stdio.h>
 int main(){
     int a , b , c;
-    a = 12;
-    b = 14;
+    scanf("%d",&a);
+    scanf("%d",&b);
     c = a * b ;
     printf("product = %d",c);
 

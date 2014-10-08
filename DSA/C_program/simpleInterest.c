@@ -1,6 +1,6 @@
 //using Constant and Variable
 #include<stdio.h>
-int main(){
+int main3(){
     int a;      //variable declaration
     a = 12;     //initialization
     int b = 13;

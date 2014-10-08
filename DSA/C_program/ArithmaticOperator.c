@@ -2,6 +2,7 @@
 //if we have two int variable than in division operation it only show integer.
 //To get the decimal result we have to use FLOAT OR DOUBLE
 // "%lf " for double
+
 #include<stdio.h>
 int main(){
     int a , b  ;

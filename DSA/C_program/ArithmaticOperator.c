@@ -4,7 +4,7 @@
 // "%lf " for double
 
 #include<stdio.h>
-int main(){
+int main5(){
     long long int  a , b  ;
     printf("Enter a:");
     scanf("%lld",&a);

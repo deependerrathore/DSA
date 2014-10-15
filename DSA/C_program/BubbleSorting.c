@@ -1,5 +1,5 @@
 #include<stdio.h>
-void main(){
+void main8(){
     int a[] = {5,1,6,2,4,3,7};
     int i , j , temp;
 

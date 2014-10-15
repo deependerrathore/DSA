@@ -37,7 +37,16 @@
 		<Unit filename="C_program/Armstrong.c">
 			<Option compilerVar="CC" />
 		</Unit>
+		<Unit filename="C_program/BubbleSorting.c">
+			<Option compilerVar="CC" />
+		</Unit>
 		<Unit filename="C_program/InputAndOutput.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="C_program/InsertionSort.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="C_program/SelectionSort.c">
 			<Option compilerVar="CC" />
 		</Unit>
 		<Unit filename="C_program/fibonacci.c">
